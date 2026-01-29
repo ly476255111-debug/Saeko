@@ -1,0 +1,6 @@
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_pubgm_loader_Component_DownloadZip_pw(JNIEnv *env, jobject thiz) {
+    return env->NewStringUTF(
+            OBFUSCATE("https://github.com/ly476255111-debug/Saeko/raw/refs/heads/main/README.md"));
+}
